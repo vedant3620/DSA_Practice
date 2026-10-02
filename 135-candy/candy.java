@@ -9,7 +9,7 @@ class Solution {
                 curr++;
             } else
                 curr = 1;
-            ans[i] = Math.max(ans[i], curr);
+            ans[i] = curr;
         }
         for (int i = n - 2; i >= 0; i--) {
             if (ratings[i] > ratings[i + 1]) {
